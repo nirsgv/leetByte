@@ -24,11 +24,11 @@ const Wildcards = (str) => {
                     changeArrByRemovingItems(outputArr,3);
                 } else {return false;}
             } else {
-                const tmpRulesArr = rulesArr.join('');
-                const endDupIndex = tmpRulesArr.indexOf('}',i);
-                const numOfDup = +(tmpRulesArr.slice(i+2,endDupIndex));
-                const tmpOutputStr = outputArr.join('');
-                const tmpOutputArrSlice = tmpOutputStr.slice(0,numOfDup).split('');
+                const tmpRulesArr = rulesArr.join(''),
+                      endDupIndex = tmpRulesArr.indexOf('}',i),
+                      numOfDup = +(tmpRulesArr.slice(i+2,endDupIndex)),
+                      tmpOutputStr = outputArr.join(''),
+                      tmpOutputArrSlice = tmpOutputStr.slice(0,numOfDup).split('');
                 if(tmpOutputArrSlice.every((item)=>{return item===tmpOutputArrSlice[0]})){
                     changeArrByRemovingItems(outputArr,numOfDup);
                     i = endDupIndex;
