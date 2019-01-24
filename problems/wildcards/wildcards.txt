@@ -7,4 +7,4 @@ the second string exactly matches the pattern of the first string in the input.
 
 For example: if str is "++*{5} jtggggg" then the second string in this case does match the pattern, so your program
 should return the string true. If the second string does not match the pattern your program should return the string
-false. 
+false.
