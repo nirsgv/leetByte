@@ -1,22 +1,30 @@
-const fizzBuzz = (arr) => {
-    let itemsMovedDuringThisRound = true;
-    while (itemsMovedDuringThisRound) {
-        itemsMovedDuringThisRound = false;
-        for (var i=0; i<arr.length;i++){
-            if (arr[i] > arr[i+1]){
-                let big = arr[i];
-                let small = arr[i+1];
-                arr[i+1]=big;
-                arr[i]=small;
-                itemsMovedDuringThisRound =true;
-            }
-        }
-    }
-    return arr;
-};
+function fizzBuzz(num) {
 
-let arr = [2,1,0,44,125,7,45,67,-67];
-console.log(fizzBuzz(arr));
+    const numArr = [];
+    for (var i=1;i<=num;i++){
+        numArr.push(i);
+    }
+
+    const dividedByWithNoLeftovers = (num, dividedBy) => {
+        return num % dividedBy === 0;
+    }
+
+    const convertedArr = numArr.map(item => {
+        if (dividedByWithNoLeftovers(item,3) && dividedByWithNoLeftovers(item,5)){
+            return 'FizzBuzz';
+        } else if (dividedByWithNoLeftovers(item,3)){
+            return 'Fizz';
+        } else if (dividedByWithNoLeftovers(item,5)){
+            return 'Buzz';
+        }
+        return item;
+    });
+
+
+    // code goes here
+    return convertedArr.join(' ');
+
+}
 
 module.exports = fizzBuzz;
 

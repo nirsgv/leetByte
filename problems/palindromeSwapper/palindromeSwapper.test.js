@@ -9,6 +9,6 @@ test('Return a correct palindrome after swapping two adjacent letters', () => {
     expect(palindromeSwapper("kyaak")).toEqual("kayak");
 });
 
-test('Return a correct palindrome after swapping two adjacent letters', () => {
+test('Return the string -1 in case of impossible matching of a palindrome', () => {
     expect(palindromeSwapper("anscferna")).toEqual("-1");
 });

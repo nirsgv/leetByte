@@ -5,5 +5,6 @@ test('Be a function', () => {
 });
 
 test('Sorting numbers', () => {
-    expect(fizzBuzz([2,1,0,44,125,7,45,67,-67])).toEqual([-67, 0, 1, 2, 7, 44, 45, 67, 125]);
+    expect(fizzBuzz(3)).toEqual("1 2 Fizz");
+    expect(fizzBuzz(8)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8");
 });
