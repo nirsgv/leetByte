@@ -27,7 +27,6 @@ const arrangeLetters = (function(){
                     allAnswers.push(newEntry);
                 }
             }
-// console.log(dat.memoization);
         return allAnswers;
     };
     return arrange;

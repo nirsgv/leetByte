@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb8898e3-3a79-4ee7-9c9f-ffc73c36fba4" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.txt" afterDir="false" />
+    <list default="true" id="fb8898e3-3a79-4ee7-9c9f-ffc73c36fba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +19,18 @@
     <session id="-1724021889">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="js" value="48" />
+          <entry key="js" value="54" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="txt" value="12" />
@@ -41,7 +40,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="48" />
+          <entry key="JavaScript" value="54" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
@@ -50,15 +49,15 @@
         <counts>
           <entry key="gitignore" value="7" />
           <entry key="html" value="58" />
-          <entry key="js" value="4366" />
-          <entry key="txt" value="152" />
+          <entry key="js" value="4775" />
+          <entry key="txt" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="58" />
-          <entry key="JavaScript" value="4366" />
-          <entry key="PLAIN_TEXT" value="159" />
+          <entry key="JavaScript" value="4775" />
+          <entry key="PLAIN_TEXT" value="188" />
         </counts>
       </usages-collector>
     </session>
@@ -68,26 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="299">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js">
+        <entry file="file://$PROJECT_DIR$/problems/soduko/soduko.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="46">
+              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -107,6 +97,7 @@
       <find>removeItemsFromArr</find>
       <find>allAnswers</find>
       <find>seen</find>
+      <find>to</find>
     </findStrings>
     <replaceStrings>
       <replace>changeArrByRemovingItems</replace>
@@ -156,9 +147,10 @@
         <option value="$PROJECT_DIR$/problems/camelCase/camelCase.test.js" />
         <option value="$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.js" />
         <option value="$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.test.js" />
-        <option value="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js" />
         <option value="$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js" />
+        <option value="$PROJECT_DIR$/problems/soduko/soduko.js" />
       </list>
     </option>
   </component>
@@ -179,7 +171,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,19 +196,12 @@
               <item name="leetByte" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetByte" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="arrangeLetters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetByte" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetByte" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="fivoMemoization" type="462c0819:PsiDirectoryNode" />
+              <item name="soduko" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,15 +214,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problems/soduko" />
       <recent name="$PROJECT_DIR$/problems" />
       <recent name="$PROJECT_DIR$/problems/camelCase" />
       <recent name="$PROJECT_DIR$/problems/fizzBuzz" />
       <recent name="$PROJECT_DIR$/problems/threeSum" />
-      <recent name="$PROJECT_DIR$/problems/bubbleSort" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,7 +248,11 @@
       <option name="presentableId" value="Default" />
       <updated>1547479372128</updated>
       <workItem from="1547479373649" duration="34072000" />
-      <workItem from="1550231326438" duration="25236000" />
+      <workItem from="1550231326438" duration="26311000" />
+      <workItem from="1550487478357" duration="776000" />
+      <workItem from="1550688305150" duration="446000" />
+      <workItem from="1550761845504" duration="2550000" />
+      <workItem from="1551015356238" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1547479951712</created>
@@ -313,17 +303,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548403588945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="arrangeLetters memoization">
+      <created>1550331907817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550331907817</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59308000" />
+    <option name="totallyTimeSpent" value="66446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="277" y="122" width="1440" height="826" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11230329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -339,7 +336,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" weight="0.22174536" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.057939913" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
@@ -374,7 +371,8 @@
     <MESSAGE value="starRating&#10;fizzBuzz" />
     <MESSAGE value="palindromeSwapper added" />
     <MESSAGE value="camelCase added&#10;elementMerger added&#10;oneDecremented added" />
-    <option name="LAST_COMMIT_MESSAGE" value="camelCase added&#10;elementMerger added&#10;oneDecremented added" />
+    <MESSAGE value="arrangeLetters memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrangeLetters memoization" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -540,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fizzBuzz/fizzBuzz.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/bubbleSort/bubbleSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -561,12 +552,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/camelCase.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/camelCase.js" />
+    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.txt" />
     <entry file="file://$PROJECT_DIR$/problems/elementMerger/elementMerger.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -574,23 +561,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/fivoMemoization.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.js" />
+    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.test.js" />
+    <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/fivoMemoization.js" />
     <entry file="file://$PROJECT_DIR$/problems/camelCase/camelCase.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -598,31 +571,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/fivoMemoization/fivoMemoization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/fizzBuzz/fizzBuzz.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/elementMerger/elementMerger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="7" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="161">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js">
+    <entry file="file://$PROJECT_DIR$/problems/soduko/starRating.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="343">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/arrangeLetters/arrangeLetters.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/soduko/soduko.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
