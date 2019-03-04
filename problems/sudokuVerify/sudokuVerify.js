@@ -25,9 +25,9 @@ function sudokuVerify(board) {
     const verify = (rows,columns,squares) => {
         for(var i=0;i<board.length;i++){
             for (var j=0;j<board[i].length;j++){
-                if( rows[i].indexOf( rows[i][j], j+1 ) !== -1 ||
-                    columns[i].indexOf( columns[i][j], j+1 ) !== -1 ||
-                    squares[i].indexOf( squares[i][j], j+1 ) !== -1 ) {
+                if( rows[i][j] && rows[i].indexOf( rows[i][j], j+1 ) !== -1 ||
+                    columns[i][j] && columns[i].indexOf( columns[i][j], j+1 ) !== -1 ||
+                    squares[i][j] && squares[i].indexOf( squares[i][j], j+1 ) !== -1 ) {
                     return false
                 }
             }
