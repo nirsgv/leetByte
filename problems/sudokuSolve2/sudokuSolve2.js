@@ -1,9 +1,99 @@
-function sudokuSolve(board) {
+
+
+
+
+// function checkBoard (board) {
+//
+//     const checkRow = () => {}
+//     const checkColumn = () => {}
+//
+//     const hasDuplicates = (arr) => {
+//         for ( i = 0 ; i < arr.length ; i++ ){
+//             if ( arr.indexOf(arr[i], i + 1) !== -1 ) {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     };
+//
+//
+//     for ( var i=0 ; i<board.length ; i++ ) {
+//         if ( hasDuplicates(board[i])   ) {return false;}
+//         for ( var j=0 ; j<board[i].length ; j++ ) {
+//             hasDuplicates(board[i])
+//
+//
+//         }
+//     }
+//
+//     return false;
+// }
+//
+//
+// function sudokuSolver (board) {
+//     console.log('another round');
+//     let hasMissingCells = 0;
+//
+//
+//     const hasDuplicates = (arr) => {
+//         for ( i = 0 ; i < arr.length ; i++ ){
+//             if ( arr.indexOf(arr[i], i + 1) !== -1 ) {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     };
+//
+//
+//     for ( var i=0 ; i<board.length ; i++ ) {
+//         for ( var j=0 ; j<board[i].length ; j++ ) {
+//
+//             if ( board[i][j] === 0 ){
+//                 hasMissingCells++;
+//                 board[i][j] = 11;
+//             }
+//         }
+//     }
+//
+//
+//
+//
+//     // recursive call unless there are no blanks (zero digits)
+//     while (hasMissingCells) {
+//         return sudokuSolver(board)
+//     }
+//     return board;
+// }
+
+
+
+// console.log(sudokuSolver([
+//     [0,0,0,0,0,0,0,0,0],
+//     [7,3,1,5,9,8,2,6,4],
+//     [6,8,2,3,4,1,9,7,5],
+//     [5,9,3,2,8,7,6,4,1],
+//     [2,1,6,9,5,4,7,3,8],
+//     [4,7,8,1,6,3,5,2,9],
+//     [8,6,4,7,3,5,1,9,2],
+//     [1,5,9,4,2,6,3,8,7],
+//     [3,2,7,8,1,9,4,5,6]
+// ]));
+
+
+
+
+
+
+
+
+function sudokuSolve2(board) {
     let hasNulls = 0;
+     console.log('another round');
 
     const getRow = (i,j) => (Math.floor(j / 3)) + (Math.floor(i / 3) * 3);
     const getColumn = (i,j) => (i*3) % 9 + j % 3;
 
+    const getSq = (x,y) => {return [Math.floor(x/3),Math.floor(y/3)]};
 
 
     const addImpossibility = ( arr, item ) => {
@@ -46,19 +136,21 @@ function sudokuSolve(board) {
     let newArr = board.map(makeDataBoard);
 
     while ( hasNulls > 0 ) {
-        return sudokuSolve(newArr);
+        return sudokuSolve2(newArr);
     }
 
     console.log( 'sudoku verified: ' + sudokuVerify(newArr) );
     return newArr;
 }
 
-console.table(sudokuSolve([
-    [null,null,null,null,null,null,null,null,null],
-    [7,null,1,5,9,8,2,6,4],
-    [6,8,null,3,4,1,9,7,5],
-    [5,9,3,2,8,7,6,4,1],
-    [2,1,6,9,null,4,7,3,8],
+
+
+console.table(sudokuSolve2([
+    [null,4,null,6,null,2,null,1,null],
+    [7,3,1,5,9,8,2,6,4],
+    [6,8,2,3,4,1,9,null,5],
+    [5,9,3,2,8,null,6,4,1],
+    [2,1,6,null,5,4,7,3,8],
     [4,7,8,1,6,3,5,2,9],
     [8,6,4,7,3,5,1,9,2],
     [1,5,9,4,2,6,3,8,7],
@@ -131,4 +223,4 @@ function sudokuVerify(board) {
     populate(board);
     return verify(rows,columns,squares);
 }
-module.exports = sudokuSolve;
+module.exports = sudokuSolve2;
