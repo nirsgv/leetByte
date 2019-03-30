@@ -2,44 +2,38 @@ let sudoku = (function () {
 
 
     const _getEmptyPositionIndexes = function(board) {
-        // Create an array to save the positions
         var emptyPositions = [];
 
         // Check every square in the puzzle for a zero
         for(var i = 0; i < board.length; i++) {
             for(var j = 0; j < board[i].length; j++) {
-                // If a zero is found, so that position
+                // If a zero is found, push that 2d position
                 if(board[i][j] === 0) {
                     emptyPositions.push([i, j]);
                 }
             }
         }
 
-        // Return the positions
         return emptyPositions;
     };
 
     const _checkRow = function(board, row, value) {
-        // Iterate through every value in the row
         for(var i = 0; i < board[row].length; i++) {
-            // If a match is found, return false
+            // this return will break _checkValue
             if(board[row][i] === value) {
                 return false;
             }
         }
-        // If no match was found, return true
         return true;
     };
 
     const _checkColumn = function(board, column, value) {
-        // Iterate through each value in the column
         for(var i = 0; i < board.length; i++) {
-            // If a match is found, return false
+            // this return will break _checkValue
             if(board[i][column] === value) {
                 return false;
             }
         }
-        // If no match was found, return true
         return true;
     };
 
@@ -50,13 +44,12 @@ let sudoku = (function () {
 
         for ( var i = rowTopMost; i < rowTopMost + 3; i++ ) {
             for ( var j = columnLeftMost; j < columnLeftMost + 3; j++ ) {
-                // Return false is a match is found
+                // this return will break _checkValue
                 if ( board[i][j] === value ) {
                     return false;
                 }
             }
         }
-        // If no match was found, return true
         return true;
     };
 
@@ -131,22 +124,6 @@ let sudoku = (function () {
 
 
 })();
-
-// console.time();
-// console.table(
-//     sudoku.solveSudoku([
-//         [0,9,0,0,0,0,0,0,6],
-//         [0,0,0,9,6,0,4,8,5],
-//         [0,0,0,5,8,1,0,0,0],
-//         [0,0,4,0,0,0,0,0,0],
-//         [5,1,7,2,0,0,9,0,0],
-//         [6,0,2,0,0,0,3,7,0],
-//         [1,0,0,8,0,4,0,2,0],
-//         [7,0,6,0,0,0,8,1,0],
-//         [3,0,0,0,9,0,0,0,0]
-//     ])
-// );
-// console.timeEnd();
 
 console.time();
 console.log(
