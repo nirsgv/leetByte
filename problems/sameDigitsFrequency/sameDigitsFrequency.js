@@ -4,7 +4,7 @@
  * @param number2 - {number}
  * @returns {boolean}
  */
-let alphaNumericRegex = /[1-9]/;
+let numericRegex = /[1-9]/;
 
 let sameDigitsFrequency = function (number1, number2) {
 
@@ -15,13 +15,13 @@ let sameDigitsFrequency = function (number1, number2) {
     if (number1.length !== number2.length) { return false; }
 
     for (let digit of number1) {
-        if ( alphaNumericRegex.test(digit) ) {
+        if ( numericRegex.test(digit) ) {
             digitsCount[digit] = ( digitsCount[digit] || 0 ) + 1;
         }
     }
 
     for (let digit of number2) {
-        if ( alphaNumericRegex.test(digit) ) {
+        if ( numericRegex.test(digit) ) {
             if (!digitsCount[digit]) {
                 return false;
             } else {
