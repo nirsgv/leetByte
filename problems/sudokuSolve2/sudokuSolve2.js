@@ -73,10 +73,10 @@ let sudoku = (function () {
             // Always from 1 to 9
             zeroToNineRange = board[emptyRowIndex][emptyColumnIndex] + 1;
 
+            // Was a valid number found?
             validValueWasFound = false;
-
-
-            // while did not found a valid yet and did not reach 9
+            // Keep trying new values until either the limit
+            // was reached or a valid value was found
             while(
                 !validValueWasFound &&
                 zeroToNineRange <= 9
@@ -89,10 +89,11 @@ let sudoku = (function () {
                     value: zeroToNineRange
                 };
 
-                if (_checkValue(boardData) ) {
+
+                if( _checkValue(boardData) ) {
                     validValueWasFound = true;
                     board[emptyRowIndex][emptyColumnIndex] = zeroToNineRange;
-                    // go to next empty item
+                    // go to next zero item
                     i++;
                     //console.log('' + i + ' found');
                 }
@@ -104,7 +105,8 @@ let sudoku = (function () {
             }
             // If no valid value was found and the limit was
             // reached, move back to the previous position
-            if ( !validValueWasFound ) {
+
+            if( !validValueWasFound ) {
                 board[emptyRowIndex][emptyColumnIndex] = 0;
                 //console.log('' + i + ' not found');
                 // go to previous zero item
@@ -112,7 +114,8 @@ let sudoku = (function () {
             }
         }
 
-        // return solved board
+
+        // return the solution
         return board;
     };
 
@@ -126,7 +129,8 @@ let sudoku = (function () {
 })();
 
 console.time();
-console.table(
+
+console.log(
     sudoku.solveSudoku([
         [1,0,0,4,8,9,0,0,6],
         [7,3,0,0,0,0,0,4,0],
@@ -150,5 +154,6 @@ console.table(
 //         [0,0,0,0,0,0,7,0,0],
 //         [0,9,0,3,0,1,0,0,0]])
 // );
+
 console.timeEnd();
 module.exports = sudoku;

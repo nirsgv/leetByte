@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb8898e3-3a79-4ee7-9c9f-ffc73c36fba4" name="Default Changelist" comment="arrangeLetters memoization">
-      <change afterPath="$PROJECT_DIR$/problems/anagramValidator/anagramValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/anagramValidator/anagramValidator.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/anagramValidator/anagramValidator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/decodedMessages/decodedMessages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/decodedMessages/decodedMessages.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/decodedMessages/decodedMessages.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/largestSumOfNonAdjacentNumbers/largestSumOfNonAdjacentNumbers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/largestSumOfNonAdjacentNumbers/largestSumOfNonAdjacentNumbers.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/largestSumOfNonAdjacentNumbers/largestSumOfNonAdjacentNumbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWays/staircaseClimbWays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWays/staircaseClimbWays.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWays/staircaseClimbWays.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWaysWithStepsizes/staircaseClimbWaysWithStepsizes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWaysWithStepsizes/staircaseClimbWaysWithStepsizes.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/staircaseClimbWaysWithStepsizes/staircaseClimbWaysWithStepsizes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb8898e3-3a79-4ee7-9c9f-ffc73c36fba4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/addTwoNumbers/addTwoNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems/addTwoNumbers/addTwoNumbers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +34,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="7" />
-          <entry key="js" value="107" />
+          <entry key="js" value="109" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="txt" value="21" />
@@ -69,7 +45,7 @@
         <counts>
           <entry key="HTML" value="6" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="107" />
+          <entry key="JavaScript" value="109" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Scratch" value="1" />
@@ -79,28 +55,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="html" value="65" />
-          <entry key="js" value="11330" />
-          <entry key="txt" value="795" />
+          <entry key="html" value="68" />
+          <entry key="js" value="11368" />
+          <entry key="txt" value="826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="65" />
-          <entry key="JavaScript" value="11330" />
-          <entry key="PLAIN_TEXT" value="802" />
+          <entry key="HTML" value="68" />
+          <entry key="JavaScript" value="11368" />
+          <entry key="PLAIN_TEXT" value="833" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="207">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -115,6 +90,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -123,11 +107,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="276">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -215,7 +208,6 @@
         <option value="$PROJECT_DIR$/problems/linkedListAddTwoNumbers/addTwoNumbers.js" />
         <option value="$PROJECT_DIR$/problems/sudokuSolve/sudokuSolve.js" />
         <option value="$PROJECT_DIR$/problems/sudokuVerify/sudokuVerify.js" />
-        <option value="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" />
         <option value="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.test.js" />
         <option value="$PROJECT_DIR$/problems/decodedMessages/decodedMessages.test.js" />
         <option value="$PROJECT_DIR$/problems/decodedMessages/decodedMessages.txt" />
@@ -233,8 +225,9 @@
         <option value="$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.js" />
         <option value="$PROJECT_DIR$/problems/addTwoNumbers/addTwoNumbers.js" />
         <option value="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.txt" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js" />
+        <option value="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -274,6 +267,12 @@
               <item name="leetByte" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetByte" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetByte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetByte" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+              <item name="sudokuSolve2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,7 +343,7 @@
       <workItem from="1557592580036" duration="1079000" />
       <workItem from="1557823966173" duration="642000" />
       <workItem from="1560172978291" duration="590000" />
-      <workItem from="1562566660196" duration="23785000" />
+      <workItem from="1562566660196" duration="24475000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1547479951712</created>
@@ -402,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550331907817</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" - many added problem solutions">
+      <created>1563370353255</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563370353255</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147337000" />
+    <option name="totallyTimeSpent" value="148027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -428,7 +434,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.19829424" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.37206823" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
@@ -464,7 +470,8 @@
     <MESSAGE value="palindromeSwapper added" />
     <MESSAGE value="camelCase added&#10;elementMerger added&#10;oneDecremented added" />
     <MESSAGE value="arrangeLetters memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrangeLetters memoization" />
+    <MESSAGE value=" - many added problem solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value=" - many added problem solutions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/problems/bubbleSort/bubbleSort.test.js">
@@ -573,20 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -732,18 +725,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js">
+    <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="69">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
