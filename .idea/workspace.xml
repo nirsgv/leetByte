@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8898e3-3a79-4ee7-9c9f-ffc73c36fba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" beforeDir="false" afterPath="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,10 +37,10 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="7" />
-          <entry key="js" value="109" />
+          <entry key="js" value="111" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="txt" value="21" />
+          <entry key="txt" value="22" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -45,9 +48,9 @@
         <counts>
           <entry key="HTML" value="6" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="109" />
+          <entry key="JavaScript" value="111" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="23" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -56,80 +59,44 @@
         <counts>
           <entry key="gitignore" value="7" />
           <entry key="html" value="68" />
-          <entry key="js" value="11368" />
-          <entry key="txt" value="826" />
+          <entry key="js" value="11506" />
+          <entry key="txt" value="841" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="68" />
-          <entry key="JavaScript" value="11368" />
-          <entry key="PLAIN_TEXT" value="833" />
+          <entry key="JavaScript" value="11506" />
+          <entry key="PLAIN_TEXT" value="848" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/anagramValidator/anagramValidator.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="56" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
+            <state relative-caret-position="851">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -177,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/starRating/starRating.test.js" />
-        <option value="$PROJECT_DIR$/problems/starRating/starRating.js" />
         <option value="$PROJECT_DIR$/problems/palindromeSwapper/palindromeSwapper.txt" />
         <option value="$PROJECT_DIR$/problems/palindromeSwapper/palindromeSwapper.js" />
         <option value="$PROJECT_DIR$/problems/palindromeSwapper/palindromeSwapper.test.js" />
@@ -227,7 +192,9 @@
         <option value="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.txt" />
         <option value="$PROJECT_DIR$/problems/maxSubarraySum/maxSubarraySum.js" />
         <option value="$PROJECT_DIR$/problems/sudokuSolve2/sudokuSolve2.js" />
+        <option value="$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.txt" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.js" />
       </list>
     </option>
   </component>
@@ -272,7 +239,7 @@
               <item name="leetByte" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetByte" type="462c0819:PsiDirectoryNode" />
               <item name="problems" type="462c0819:PsiDirectoryNode" />
-              <item name="sudokuSolve2" type="462c0819:PsiDirectoryNode" />
+              <item name="sameDigitsFrequency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,7 +310,7 @@
       <workItem from="1557592580036" duration="1079000" />
       <workItem from="1557823966173" duration="642000" />
       <workItem from="1560172978291" duration="590000" />
-      <workItem from="1562566660196" duration="24475000" />
+      <workItem from="1562566660196" duration="26092000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1547479951712</created>
@@ -412,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148027000" />
+    <option name="totallyTimeSpent" value="149644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -434,7 +401,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.37206823" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.25053304" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17739628" />
@@ -474,14 +441,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=" - many added problem solutions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/bubbleSort/bubbleSort.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/camelCase.js" />
     <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.txt" />
     <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.js" />
     <entry file="file://$PROJECT_DIR$/problems/fivoMenoization/fivoMenoization.test.js" />
@@ -690,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/anagramValidator/anagramValidator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/countUniqueValues/countUniqueValues.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -746,10 +698,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/anagramValidator/anagramValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/sameDigitsFrequency/sameDigitsFrequency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
         </state>
       </provider>
     </entry>
