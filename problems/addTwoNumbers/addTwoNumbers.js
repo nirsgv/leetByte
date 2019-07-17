@@ -29,11 +29,11 @@ var addTwoNumbers = function (l1, l2) {   
         // is there carry ? 1 : 0       
         carry = addedNumsWithCarry >= 10 ? 1 : 0;               
         // keep the loop going, for is there a next condition        
-        if(l1) l1 = l1.next;       
-        if(l2) l2 = l2.next;       
+        if (l1) l1 = l1.next;       
+        if (l2) l2 = l2.next;       
         currentInstance = currentInstance.next;   
         }   
-// end with a null value;   
+    // end with a null value;   
    return pureInstance.next;
 };
 
