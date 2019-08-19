@@ -4,7 +4,7 @@
  * @returns {number}
  */
 let maxSubarraySum = function (arr, num) {
-    if (arr.length < num) {return null;}
+    if (arr.length < num) { return null; }
     let maxSum = 0,
         tempSum = 0;
 
