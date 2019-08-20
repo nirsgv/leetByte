@@ -206,14 +206,6 @@ class SinglyLinkedList {
         }
         return arr;
     }
-
-    traverse() {
-        let current = this.head;
-        while (current) {
-            console.log(current.val);
-            current = current.next;
-        }
-    }
 }
 
 let list = new SinglyLinkedList();
@@ -236,4 +228,3 @@ console.log(list.print());
 list.reverse();
 console.log(list.print());
 console.log(list);
-//list.traverse();
