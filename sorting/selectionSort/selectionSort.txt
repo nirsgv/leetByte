@@ -1,5 +1,5 @@
 Time Complexity (best):
-O(n)
+O(n**2)
 
 Time Complexity (average):
 O(n**2)
