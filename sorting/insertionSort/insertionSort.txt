@@ -1,0 +1,11 @@
+Time Complexity (best):
+O(n)
+
+Time Complexity (average):
+O(n**2)
+
+Time Complexity (worst):
+O(n**2)
+
+Space Complexity (worst):
+O(1)
