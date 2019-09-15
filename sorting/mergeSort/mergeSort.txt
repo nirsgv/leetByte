@@ -1,0 +1,16 @@
+So merge so it takes advantage of that fact it works by decomposing an array into smaller arrays.
+We split up the larger array we're trying to sort into smaller sub arrays all the way down.
+We keep doing it until we get to zero or one element arrays,
+and then we merge them back together.
+
+Time Complexity (best):
+O(n log n)
+
+Time Complexity (average):
+O(n log n)
+
+Time Complexity (worst):
+O(n log n)
+
+Space Complexity (worst):
+O(n)

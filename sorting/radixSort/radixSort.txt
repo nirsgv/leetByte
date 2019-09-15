@@ -1,0 +1,21 @@
+Radix sort is a special sorting algorithm that works on lists of numbers.
+It never makes comparisons between elements.
+It exploits the fact that information about the size of a number is encoded in the number of digits.
+
+More digits means a bigger number!
+If a number has four digits, it is larger than any two-digit number.
+
+In order to implement radix sort, it's helpful to build a few helper functions first:
+getDigit(num, place) - returns the digit in {num} at the given {place} value.
+
+Time Complexity (best):
+O(nk)
+
+Time Complexity (average):
+O(nk)
+
+Time Complexity (worst):
+O(nk)
+
+Space Complexity (worst):
+O(n + k)

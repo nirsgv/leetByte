@@ -1,0 +1,21 @@
+Like merge sort, exploits the fact that arrays of 0 or 1 element are always sorted.
+Works by selecting  one element (the pivot) and finding the index where the pivot should end up in the sorted array.
+Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot.
+
+quickSort pseudocode
+Call the pivot helper on the array
+when the helper returns to you the updated pivot index,
+recursively call the pivot helper on the subarray to the left of that index,
+and the subarray to the right of that index.
+
+Time Complexity (best):
+O(n log n)
+
+Time Complexity (average):
+O(n log n)
+
+Time Complexity (worst):
+O(n ** n)
+
+Space Complexity (worst):
+O(log n)
